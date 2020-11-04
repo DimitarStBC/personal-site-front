@@ -59,8 +59,8 @@ export default {
     align-items: center;
     position: absolute;
     width: 100%;
-    height: 60px;
-    bottom: 0;
+    padding: 15px 0;
+    bottom: 0 !important;
     border-top: 1px solid rgb(71, 123, 155);
     background-color: #070919;
   }
