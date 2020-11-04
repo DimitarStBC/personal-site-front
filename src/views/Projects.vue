@@ -11,28 +11,6 @@
           <mdb-view hover>
             <a
               target="_blank"
-              href="https://github.com/DimitarStBC/HTML-CSS-design"
-            >
-              <mdb-card-image class="bg-image html" />
-              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-            </a>
-          </mdb-view>
-          <mdb-card-body class="d-flex flex-column justify-content-between">
-            <mdb-card-title>Pure html and css site</mdb-card-title>
-            <mdb-card-text>no JavaScript site</mdb-card-text>
-            <a
-              target="_blank"
-              href="https://github.com/DimitarStBC/HTML-CSS-design"
-              ><mdb-btn outline="info">Go to</mdb-btn></a
-            >
-          </mdb-card-body>
-        </mdb-card>
-        <!-- end of card -->
-        <!-- card -->
-        <mdb-card class="bg-dark sizeCard">
-          <mdb-view hover>
-            <a
-              target="_blank"
               href="https://github.com/DimitarStBC/JavaScript-Projects"
             >
               <mdb-card-image class="bg-image js" />
@@ -101,7 +79,31 @@
           </mdb-card-body>
         </mdb-card>
         <!-- end of card -->
-
+        <!-- card -->
+        <mdb-card class="bg-dark sizeCard">
+          <mdb-view hover>
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/personal-site-front"
+            >
+              <mdb-card-image class="bg-image vue" />
+              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+            </a>
+          </mdb-view>
+          <mdb-card-body class="d-flex flex-column justify-content-between">
+            <mdb-card-title> <span> this.</span>site</mdb-card-title>
+            <mdb-card-text
+              >Vue framework with mdb library. Planning to expand with express
+              for back-end</mdb-card-text
+            >
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/personal-site-front"
+              ><mdb-btn outline="info">Go to</mdb-btn></a
+            >
+          </mdb-card-body>
+        </mdb-card>
+        <!-- end of card -->
         <!-- card -->
         <mdb-card class="bg-dark sizeCard">
           <mdb-view hover>
@@ -205,6 +207,9 @@ export default {
 }
 .html {
   background-image: url("../assets/logos/htmlcss.webp");
+}
+span {
+  color: rgb(226, 226, 22);
 }
 .sizeCard {
   width: 300px;

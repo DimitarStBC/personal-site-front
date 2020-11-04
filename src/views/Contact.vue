@@ -14,6 +14,15 @@
           <a href="tel:+359876901805">phone</a> or
           <a href="mailto:contact@stoev.dev">email</a> .
         </p>
+        <a
+          target="_blank"
+          class="mr-3"
+          href="https://www.linkedin.com/in/dimitar-stoev-91464a114/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a target="_blank" href="https://github.com/DimitarStBC"
+          ><i class="fab fa-github-square"></i
+        ></a>
       </div>
     </div>
     <EndingLine />
@@ -41,5 +50,9 @@ h2 {
 p {
   width: 600px;
   font-size: 23px;
+}
+
+.fab {
+  font-size: 45px;
 }
 </style>
