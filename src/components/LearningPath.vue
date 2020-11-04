@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .opacityRe {
-  opacity: 0.6;
+  opacity: 0.7;
   font-size: 18px;
 }
 .box {

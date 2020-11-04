@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-between align-items-center">
+  <div class="d-flex customPosition justify-content-between align-items-center">
     <div class="customBar">
       <router-link
         class="link"
@@ -53,6 +53,9 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
+  .customPosition {
+    position: relative;
+  }
   .customBar {
     display: flex;
     justify-content: space-around;
