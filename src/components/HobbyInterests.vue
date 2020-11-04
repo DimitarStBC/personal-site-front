@@ -22,8 +22,16 @@ export default {
 
 <style scoped>
 .opacityRe {
-  opacity: 0.6;
+  opacity: 0.7;
   font-size: 20px;
   width: 60%;
+}
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 25px;
+  }
+  .opacityRe {
+    width: 90%;
+  }
 }
 </style>

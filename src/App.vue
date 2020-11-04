@@ -4,16 +4,19 @@
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
+    <NavMobile />
   </div>
 </template>
 
 <script>
 import Navigation from "./components/Navigation";
+import NavMobile from "./components/NavMobile";
 
 export default {
   name: "App",
   components: {
     Navigation,
+    NavMobile,
   },
 };
 </script>

@@ -189,6 +189,9 @@ export default {
 </script>
 
 <style scoped>
+p {
+  color: rgb(197, 197, 197) !important;
+}
 .bg-image {
   width: 100%;
   height: 200px;

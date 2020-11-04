@@ -58,4 +58,10 @@ export default {
     opacity: 0;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    width: 90%;
+  }
+}
 </style>

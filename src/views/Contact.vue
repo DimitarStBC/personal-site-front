@@ -1,8 +1,10 @@
 <template>
   <div class="container mt-5">
-    <div class="d-flex justify-content-around align-items-center">
+    <div
+      class="d-flex flex-sm-row flex-column justify-content-around align-items-center"
+    >
       <i class="fas fa-envelope-open-text"></i>
-      <div class="mt-5">
+      <div class="mt-5 ml-3">
         <h2>Let's talk</h2>
         <p class="mt-5">
           If you are interested to do business with me, want to chat about some
@@ -11,7 +13,7 @@
         <p>
           You can contact me via
           <a href="tel:+359876901805">phone</a> or
-          <a href="mailto:contact@stoev.dev">email</a> .
+          <a href="mailto:drowsa@tuta.io">email</a> .
         </p>
         <a
           target="_blank"
@@ -53,5 +55,17 @@ p {
 
 .fab {
   font-size: 45px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .fas {
+    font-size: 150px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    width: 90%;
+  }
 }
 </style>

@@ -84,4 +84,10 @@ p {
   left: 15px;
   top: 0;
 }
+
+@media only screen and (max-width: 1000px) {
+  .imageControl img {
+    width: 90%;
+  }
+}
 </style>

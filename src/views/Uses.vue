@@ -131,4 +131,17 @@ export default {
 ul li {
   font-size: 20px;
 }
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 22px;
+  }
+  ul li {
+    font-size: 17px;
+    margin: 5px 0;
+  }
+  .fas {
+    display: none;
+  }
+}
 </style>

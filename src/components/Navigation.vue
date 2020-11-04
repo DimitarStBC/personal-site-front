@@ -6,7 +6,7 @@
         name: 'Landing',
       }"
     >
-      <h4>Dimitar <span> Stoev </span></h4>
+      <h4 class="pointerCursor">Dimitar <span> Stoev </span></h4>
     </router-link>
 
     <mdb-navbar-toggler>
@@ -70,6 +70,9 @@ export default {
 </script>
 
 <style scoped>
+.pointerCursor {
+  cursor: pointer;
+}
 .sticky {
   position: sticky;
   top: 0;

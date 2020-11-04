@@ -1,6 +1,8 @@
 <template>
   <div class="container d-flex flex-column mt-5">
-    <div class="d-flex flex-row justify-content-around align-items-center">
+    <div
+      class="d-flex flex-sm-row flex-column justify-content-around align-items-center"
+    >
       <div class="image-bg"></div>
       <div class="paraControl">
         <div class="d-flex">
@@ -124,5 +126,20 @@ ul li {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .image-bg {
+    margin-bottom: 20px;
+  }
+  .paraControl {
+    width: 90%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .fas {
+    display: none;
+  }
 }
 </style>

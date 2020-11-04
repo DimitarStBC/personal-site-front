@@ -41,4 +41,12 @@ export default {
 .imageControl img {
   width: 100%;
 }
+@media only screen and (max-width: 1000px) {
+  .containerControl {
+    width: 100%;
+  }
+  .imageControl {
+    margin: 5px 5px;
+  }
+}
 </style>
