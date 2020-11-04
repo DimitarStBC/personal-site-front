@@ -29,6 +29,15 @@
       <Technologies />
       <EndingLine />
       <div class="d-flex align-items-center">
+        <h1>What i plan to learn next</h1>
+        <i class="fas fa-wrench"></i>
+      </div>
+      <ul class="mt-3">
+        <li>Linux</li>
+        <li>Ruby on Rails</li>
+      </ul>
+      <EndingLine />
+      <div class="d-flex align-items-center">
         <h1>Languages</h1>
         <i class="fas fa-language"></i>
       </div>
@@ -74,6 +83,9 @@ export default {
 .fas {
   font-size: 35px;
   margin: 0 10px;
+}
+ul li {
+  font-size: 20px;
 }
 @keyframes wave {
   0% {

@@ -35,6 +35,15 @@ export default {
 ::-webkit-scrollbar-thumb {
   background: rgb(63, 152, 179);
 }
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  cursor: default;
+}
 #app {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;

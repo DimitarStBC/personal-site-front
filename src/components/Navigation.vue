@@ -36,15 +36,13 @@
           ><mdb-nav-item>Uses</mdb-nav-item></router-link
         >
 
-        <mdb-btn size="sm" outline="info">
-          <router-link
-            class="link"
-            :to="{
-              name: 'Contact',
-            }"
-            >Contact</router-link
-          >
-        </mdb-btn>
+        <router-link
+          class="link"
+          :to="{
+            name: 'Contact',
+          }"
+          ><mdb-btn size="sm" outline="info">Contact</mdb-btn></router-link
+        >
       </mdb-navbar-nav>
     </mdb-navbar-toggler>
   </mdb-navbar>

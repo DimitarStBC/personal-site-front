@@ -3,6 +3,7 @@
     <div class="pt-3">
       <h1>Hello, I'm Dimitar</h1>
       <h1>and I <span class="heart"></span> web development</h1>
+      <mdb-btn class="mt-5" color="info">Download CV</mdb-btn>
     </div>
     <div class="imageControl d-flex justify-content-center">
       <img src="../assets/landingImage.png" alt="" />
@@ -38,20 +39,20 @@
 
 <script>
 import EndingLine from "../components/EndingLine";
+import { mdbBtn } from "mdbvue";
 
 export default {
   name: "Landing",
   components: {
     EndingLine,
+    mdbBtn,
   },
 };
 </script>
 
 <style scoped>
-h1,
-h2,
 p {
-  cursor: default;
+  font-size: 25px;
 }
 .imageControl img {
   width: 600px;
