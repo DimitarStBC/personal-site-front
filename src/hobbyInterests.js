@@ -1,19 +1,23 @@
 const hobbyInterests = [
     {
+        title: 'Books',
+        content: 'I prefer to read more practical titles, which could help me improve my professional and personal skills.'
+    },
+    {
         title: 'Technology',
-        content: 'Cliche but true. May be everyone who is working in software development is interested in the topic. I enjoy trying new solutions, modern frameworks and so on'
+        content: 'With rapidly changing technologies, it is a field that will never stop being interesting to me.'
     },
     {
-        title: 'Start ups',
-        content: "From titme to time i am checking the new trending companies"
+        title: 'Start-ups',
+        content: "The new trending companies are an interest to me, I love reading success stories."
     },
     {
-        title: "You tube",
-        content: "In my free time, i check several channels on the platform. I enjoy tech, comedy, science and music videos"
+        title: "YouTube",
+        content: "I really love spending time on the platform, absorbing knowledge from skilled tutors, and of course I like watching music videos and comedy sketches."
     },
     {
         title: "Coding",
-        content: "In some of my free time i try to keep focus on my personal projects"
+        content: "In my free time, I am keeping focus on my personal projects."
     }
 ]
 

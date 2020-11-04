@@ -8,10 +8,10 @@
           <i class="fas wave-animation fa-hand-paper"></i>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni,
-          incidunt assumenda neque eligendi ducimus cupiditate velit nulla ipsam
-          corporis officiis dolores et error quos eaque, in corrupti culpa
-          dignissimos? Cupiditate?
+          Hi, I'm Dimitar Stoev, a happily married 30 year old full-stack web
+          developer. I am doing freelance work based in Burgas , but I am also
+          doing work for international clients. Feel free to explore the content
+          bellow and don't forget to check my amazing portfolio!
         </p>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <Technologies />
       <EndingLine />
       <div class="d-flex align-items-center">
-        <h1>What i plan to learn next</h1>
+        <h1>What I plan to learn next</h1>
         <i class="fas fa-wrench"></i>
       </div>
       <ul class="mt-3">
@@ -45,7 +45,7 @@
       <EndingLine />
       <div class="d-flex align-items-center">
         <h1>Hobbies and interests</h1>
-        <i class="fas fa-grin-beam-sweat"></i>
+        <i class="fas fa-grin-alt"></i>
       </div>
       <HobbyInterests />
       <EndingLine />

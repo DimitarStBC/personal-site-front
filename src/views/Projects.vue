@@ -2,83 +2,10 @@
   <div class="container mt-5">
     <div class="d-flex flex-column">
       <h2>
-        Check my repos
+        Check my projects
         <a target="_blank" href="https://github.com/DimitarStBC">here</a>
       </h2>
       <div class="d-flex justify-content-around flex-wrap mt-5">
-        <!-- card -->
-        <mdb-card class="bg-dark sizeCard">
-          <mdb-view hover>
-            <a
-              target="_blank"
-              href="https://github.com/DimitarStBC/JavaScript-Projects"
-            >
-              <mdb-card-image class="bg-image js" />
-              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-            </a>
-          </mdb-view>
-          <mdb-card-body class="d-flex flex-column justify-content-between">
-            <mdb-card-title>Small JavaScript projects</mdb-card-title>
-            <mdb-card-text
-              >Some quick examples of JavaScript controll</mdb-card-text
-            >
-            <a
-              target="_blank"
-              href="https://github.com/DimitarStBC/JavaScript-Projects"
-              ><mdb-btn outline="info">Go to</mdb-btn></a
-            >
-          </mdb-card-body>
-        </mdb-card>
-        <!-- end of card -->
-
-        <!-- card -->
-        <mdb-card class="bg-dark sizeCard">
-          <mdb-view hover>
-            <a
-              target="_blank"
-              href="https://github.com/DimitarStBC/Weather-App"
-            >
-              <mdb-card-image class="bg-image js" />
-              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-            </a>
-          </mdb-view>
-          <mdb-card-body class="d-flex flex-column justify-content-between">
-            <mdb-card-title>Weather app</mdb-card-title>
-            <mdb-card-text
-              >Weather application build with rest API</mdb-card-text
-            >
-            <a target="_blank" href="https://github.com/DimitarStBC/Weather-App"
-              ><mdb-btn outline="info">Go to</mdb-btn></a
-            >
-          </mdb-card-body>
-        </mdb-card>
-        <!-- end of card -->
-
-        <!-- card -->
-        <mdb-card class="bg-dark sizeCard">
-          <mdb-view hover>
-            <a
-              target="_blank"
-              href="https://github.com/DimitarStBC/staticPlainJavascript"
-            >
-              <mdb-card-image class="bg-image js" />
-              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-            </a>
-          </mdb-view>
-          <mdb-card-body class="d-flex flex-column justify-content-between">
-            <mdb-card-title>Static JavaScript site</mdb-card-title>
-            <mdb-card-text
-              >Simple static JavaScript website with language functionalities
-              and animations</mdb-card-text
-            >
-            <a
-              target="_blank"
-              href="https://github.com/DimitarStBC/staticPlainJavascript"
-              ><mdb-btn outline="info">Go to</mdb-btn></a
-            >
-          </mdb-card-body>
-        </mdb-card>
-        <!-- end of card -->
         <!-- card -->
         <mdb-card class="bg-dark sizeCard">
           <mdb-view hover>
@@ -92,10 +19,7 @@
           </mdb-view>
           <mdb-card-body class="d-flex flex-column justify-content-between">
             <mdb-card-title> <span> this.</span>site</mdb-card-title>
-            <mdb-card-text
-              >Vue framework with mdb library. Planning to expand with express
-              for back-end</mdb-card-text
-            >
+            <mdb-card-text>Vue framework with mdb library.</mdb-card-text>
             <a
               target="_blank"
               href="https://github.com/DimitarStBC/personal-site-front"
@@ -116,7 +40,7 @@
             </a>
           </mdb-view>
           <mdb-card-body class="d-flex flex-column justify-content-between">
-            <mdb-card-title>Vue tasks managment system</mdb-card-title>
+            <mdb-card-title>Vue tasks</mdb-card-title>
             <mdb-card-text
               >Task system with json placeholder functionalities</mdb-card-text
             >
@@ -149,6 +73,80 @@
             <a
               target="_blank"
               href="https://github.com/DimitarStBC/tilesandcarpets"
+              ><mdb-btn outline="info">Go to</mdb-btn></a
+            >
+          </mdb-card-body>
+        </mdb-card>
+        <!-- end of card -->
+        <!-- card -->
+        <mdb-card class="bg-dark sizeCard">
+          <mdb-view hover>
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/JavaScript-Projects"
+            >
+              <mdb-card-image class="bg-image js" />
+              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+            </a>
+          </mdb-view>
+          <mdb-card-body class="d-flex flex-column justify-content-between">
+            <mdb-card-title>Small JavaScript projects</mdb-card-title>
+            <mdb-card-text
+              >Some fun projects I did along the way.</mdb-card-text
+            >
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/JavaScript-Projects"
+              ><mdb-btn outline="info">Go to</mdb-btn></a
+            >
+          </mdb-card-body>
+        </mdb-card>
+        <!-- end of card -->
+
+        <!-- card -->
+        <mdb-card class="bg-dark sizeCard">
+          <mdb-view hover>
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/Weather-App"
+            >
+              <mdb-card-image class="bg-image js" />
+              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+            </a>
+          </mdb-view>
+          <mdb-card-body class="d-flex flex-column justify-content-between">
+            <mdb-card-title>Weather app</mdb-card-title>
+            <mdb-card-text
+              >Weather application build with REST API. Capable of city
+              changing.</mdb-card-text
+            >
+            <a target="_blank" href="https://github.com/DimitarStBC/Weather-App"
+              ><mdb-btn outline="info">Go to</mdb-btn></a
+            >
+          </mdb-card-body>
+        </mdb-card>
+        <!-- end of card -->
+
+        <!-- card -->
+        <mdb-card class="bg-dark sizeCard">
+          <mdb-view hover>
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/staticPlainJavascript"
+            >
+              <mdb-card-image class="bg-image js" />
+              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+            </a>
+          </mdb-view>
+          <mdb-card-body class="d-flex flex-column justify-content-between">
+            <mdb-card-title>Static JavaScript site</mdb-card-title>
+            <mdb-card-text
+              >Static JavaScript website with language functionalities and
+              animations</mdb-card-text
+            >
+            <a
+              target="_blank"
+              href="https://github.com/DimitarStBC/staticPlainJavascript"
               ><mdb-btn outline="info">Go to</mdb-btn></a
             >
           </mdb-card-body>

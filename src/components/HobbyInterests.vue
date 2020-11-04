@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .opacityRe {
-  opacity: 0.4;
+  opacity: 0.6;
   font-size: 20px;
   width: 60%;
 }

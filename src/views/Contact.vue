@@ -5,12 +5,11 @@
       <div class="mt-5">
         <h2>Let's talk</h2>
         <p class="mt-5">
-          Whether you are interested to do business with me, want to chat about
-          some of my content, or just want to hang out, I am happy to talk to
-          you.
+          If you are interested to do business with me, want to chat about some
+          of my content, or just hang out, I am happy to talk to you.
         </p>
         <p>
-          My preferred way of contact is via
+          You can contact me via
           <a href="tel:+359876901805">phone</a> or
           <a href="mailto:contact@stoev.dev">email</a> .
         </p>

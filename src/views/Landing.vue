@@ -2,16 +2,16 @@
   <div class="container mt-5 h-90">
     <div class="pt-3">
       <h1>Hello, I'm Dimitar</h1>
-      <h1>and I <span class="heart"></span> web development</h1>
+      <h1>and <span class="heart"></span> web development</h1>
     </div>
     <div class="imageControl d-flex justify-content-center">
       <img src="../assets/landingImage.png" alt="" />
     </div>
     <div>
       <p>
-        I am a freelancing full-stack developer living in beautiful Burgas. I
-        mostly work with JavaScript (Node.js & Vue.js), but have also experience
-        with C#, Java, and Angular.
+        I am a freelancing full-stack developer, living in the beautiful city of
+        Burgas. I mostly work with JavaScript (Node.js & Vue.js), and also have
+        experience with C#, Java, and Angular.
       </p>
       <p>
         If you have any web development needs, feel free to
