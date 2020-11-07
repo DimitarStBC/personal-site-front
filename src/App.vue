@@ -53,7 +53,8 @@ li {
   -moz-osx-font-smoothing: grayscale;
   color: rgb(102, 191, 243);
   background-color: #070919;
-  height: 100vh;
+  
+  
   overflow-y: auto;
   overflow-x: hidden;
 }

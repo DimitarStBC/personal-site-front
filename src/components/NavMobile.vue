@@ -57,7 +57,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding: 15px 0;
     bottom: 0 !important;

@@ -121,7 +121,7 @@ ul li {
 .image-bg {
   width: 200px;
   height: 200px;
-  background-image: url("../assets/me.jpg");
+  background-image: url("../assets/me.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

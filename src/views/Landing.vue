@@ -5,7 +5,7 @@
       <h1>and <span class="heart"></span> web development</h1>
     </div>
     <div class="imageControl d-flex justify-content-center">
-      <img src="../assets/landingImage.png" alt="" />
+      <img src="../assets/landing.webp" alt="" />
     </div>
     <div>
       <p>

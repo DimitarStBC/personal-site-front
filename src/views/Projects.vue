@@ -201,14 +201,12 @@ p {
   background-repeat: no-repeat;
 }
 .js {
-  background-image: url("../assets/logos/js.png");
+  background-image: url("../assets/logos/js.webp");
 }
 .vue {
-  background-image: url("../assets/logos/vue.png");
+  background-image: url("../assets/logos/vue.webp");
 }
-.html {
-  background-image: url("../assets/logos/htmlcss.webp");
-}
+
 span {
   color: rgb(226, 226, 22);
 }
